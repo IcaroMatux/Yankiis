@@ -1,0 +1,135 @@
+.contato1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+}
+
+
+.coluna-contato {
+    width: 100%;
+    padding: 0 5rem;
+}
+
+.coluna-contato h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.coluna-contato h3 img {
+    width: 35px;
+    margin-left: 10px;
+    /* margin-top: 50px; */
+}
+
+.mini-insta {
+    width: 35px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.envelope-msgs {
+    width: 35px;
+    margin-top: 30px;
+}
+
+.emailyankiis {
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-top: -40px;
+    position: fixed;
+    /* position: relative; */
+}
+
+.insta-yankii {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+    margin-left: -40px;
+    margin-top: 42px;
+    /* position: relative; */
+}
+
+.insta-yankii {
+    color: #000;
+    text-decoration: none;
+}
+
+.insta-yankii:hover {
+    text-decoration: underline;
+}
+
+.texto {
+    font-size: 16px;
+    margin-top: 15px;
+    flex-basis: 48%;
+    color: #000;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.btn-submit {
+    min-width: 100px;
+    align-self: flex-start;
+    margin-left: 80px;
+    background-color: #000;
+    width: 25%;
+    margin-top: 20px;
+    /* margin-left: 38%; */
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: rgb(97, 240, 250);
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 4px;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+/* -----------------------------media query -------------------------------- */
+
+@media (max-width:576px) {
+
+    .informacoes {
+        flex-direction: column;
+    }
+
+    .coluna-contato {
+        display: block;
+        width: 100%;
+    }
+
+    .mini-insta {
+        margin-left: 30px;
+        margin-top: -1px;
+    }
+
+    .btn-submit {
+        margin-left: 10px;
+    }
+
+
+}

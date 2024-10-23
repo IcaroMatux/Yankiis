@@ -1,0 +1,45 @@
+.yankii .yankii-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yankii video {
+    position: absolute;
+    z-index: -1;
+    top: 2;
+    left: 0;
+    width: 100%;
+}
+
+
+.yankiis-texto {
+    padding-top: 20%;
+    padding-left: 30%;
+    text-align: center;
+    max-width: 900px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.yankiis-texto p {
+    font-size: 20px;
+    margin: 20px auto 20px;
+    line-height: 1.4;
+}
+
+/* ----------------------- media query -------------------- */
+@media (max-width:576px) {
+    .yankiis-texto {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .yankii-katana {
+        width: 50%;
+    }
+
+    .yankiis-texto p {
+        font-size: 16px;
+    }
+}
