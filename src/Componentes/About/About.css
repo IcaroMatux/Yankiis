@@ -8,7 +8,7 @@
 
 .about-left img {
     width: 90%;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 
 .about-left {
@@ -17,7 +17,7 @@
 
 .about-right {
     flex-basis: 56%;
-    margin-top: -30px;
+    margin-top: 80px;
 }
 
 
@@ -33,7 +33,8 @@
 .about-right p {
     display: inline-block;
     color: #000;
-    margin-top: 29px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .about {
@@ -51,9 +52,13 @@
     }
 
     .about-left img {
-        margin-top: 50px;
+        margin-top: 20px;
         width: 90%;
-        margin-right: 50px;
+        margin-left: 20px;
+    }
+
+    .about-right {
+        margin-top: -60px;
     }
 
     .about-right h1 {
@@ -61,8 +66,13 @@
         align-items: center;
         justify-content: center;
         font-size: 32px;
+        margin-left: 30px;
         max-width: 400px;
-        margin-top: 90px;
+        /* margin-top: 90px; */
+    }
+
+    .about-right h2 {
+        margin-left: 50px;
     }
 
     .about {

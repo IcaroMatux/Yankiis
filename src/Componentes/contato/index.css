@@ -1,5 +1,6 @@
 .contato {
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    flex-direction: column;
 }
 
 .contato1 {
@@ -9,7 +10,7 @@
     align-items: center;
     font-size: 40px;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .informacoes {
@@ -27,6 +28,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    margin-left: 45%;
 }
 
 .coluna-contato h3 img {
@@ -160,7 +162,7 @@ form {
 
     }
 
-    .coluna-contato-form{
+    .coluna-contato-form {
         margin-top: 25px;
         margin-left: -50px;
     }

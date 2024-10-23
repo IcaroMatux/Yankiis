@@ -1,6 +1,6 @@
 .here {
     display: block;
-    margin-left: 260px;
+    margin-left: 25%;
 }
 
 .comojogar-texto {
@@ -63,7 +63,8 @@
 
     .container-numeros {
         background-size: cover;
-        margin-left: 80px;
+        width: 80%;
+        margin-left: 100px;
     }
 
     .numeros {
