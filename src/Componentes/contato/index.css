@@ -1,4 +1,9 @@
+.contato {
+    margin-left: 100px;
+}
+
 .contato1 {
+    margin-left: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,21 +38,23 @@
 .mini-insta {
     width: 35px;
     margin-top: 30px;
+    margin-left: 35px;
     position: absolute;
 }
 
 .envelope-msgs {
     width: 35px;
     margin-top: 30px;
+    margin-left: 35px;
 }
 
 .emailyankiis {
     display: flex;
+    justify-content: center;
     /* align-items: center; */
     /* text-align: center; */
-    margin-left: 50px;
-    margin-top: -40px;
-    position: fixed;
+    margin-left: -10px;
+    margin-top: -37px;
     /* position: relative; */
 }
 
@@ -56,7 +63,7 @@
     /* align-items: center; */
     justify-content: center;
     /* text-align: center; */
-    margin-left: -40px;
+    margin-left: 40px;
     margin-top: 42px;
     /* position: relative; */
 }
@@ -118,17 +125,44 @@ form {
     }
 
     .coluna-contato {
-        display: block;
+        display: column;
         width: 100%;
     }
 
+    .coluna-contato h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -65px;
+        margin-top: -50px;
+    }
+
+    .texto {
+        margin-left: -65px;
+    }
+
     .mini-insta {
-        margin-left: 30px;
-        margin-top: -1px;
+        margin-left: -140px;
+        margin-top: 30px;
+
+    }
+
+    .envelope-msgs {
+        margin-left: -140px;
+    }
+
+    .emailyankiis {
+        margin-left: -110px;
     }
 
     .btn-submit {
-        margin-left: 10px;
+        margin-left: 60px;
+
+    }
+
+    .coluna-contato-form{
+        margin-top: 25px;
+        margin-left: -50px;
     }
 
 

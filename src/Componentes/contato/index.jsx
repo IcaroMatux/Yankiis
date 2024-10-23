@@ -53,7 +53,7 @@ const Contato = () => {
 
                 </div>
 
-                <div className='coluna-contato'>
+                <div className='coluna-contato-form'>
                     <form onSubmit={onSubmit}>
                         <label>Seu Nome</label>
                         <input type="text" name='name' placeholder='Digite seu Nome' required />
