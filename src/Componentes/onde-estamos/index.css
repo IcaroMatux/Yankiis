@@ -58,13 +58,13 @@
 
     .comojogar-texto {
         text-align: center;
-        margin-left: 30px;
+        margin-left: 5px;
     }
 
     .container-numeros {
         background-size: cover;
-        width: 80%;
-        margin-left: 100px;
+        width: 70%;
+        margin-left: 120px;
     }
 
     .numeros {

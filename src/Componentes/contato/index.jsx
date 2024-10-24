@@ -45,7 +45,7 @@ const Contato = () => {
 
                     <h3>Mande-nos uma mensagem</h3>
 
-                    <p className='texto'>Sinta-se a vontade para entrar em contato através do formulário de contato ou encontre nossas informações de contato abaixo.</p>
+                    <p className='texto'>Sinta-se a vontade para entrar em contato através do formulário de contato ou encontre nossas informações de contato abaixo:</p>
 
                     <img src={mini_instagram} alt="ícone pequeno do instagram" className='mini-insta' /> <a href="https://www.instagram.com/yankiis_cdanjos/" target='_blank' className='insta-yankii'> https://www.instagram.com/yankiis_cdanjos/</a>
 

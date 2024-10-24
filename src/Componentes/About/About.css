@@ -58,7 +58,7 @@
     }
 
     .about-right {
-        margin-top: -60px;
+        margin-top: -70px;
     }
 
     .about-right h1 {
@@ -66,13 +66,13 @@
         align-items: center;
         justify-content: center;
         font-size: 32px;
-        margin-left: 30px;
+        margin-left: -30px;
         max-width: 400px;
         /* margin-top: 90px; */
     }
 
     .about-right h2 {
-        margin-left: 50px;
+        margin-left: -20px;
     }
 
     .about {
